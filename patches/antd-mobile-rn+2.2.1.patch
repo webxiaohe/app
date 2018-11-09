@@ -1,0 +1,18 @@
+patch-package
+--- a/node_modules/antd-mobile-rn/lib/result/PropsType.d.ts
++++ b/node_modules/antd-mobile-rn/lib/result/PropsType.d.ts
+@@ -1,11 +1,12 @@
+ /// <reference types="react" />
+ import React from 'react';
+ export interface ResultPropsType {
+-    imgUrl?: string;
++    imgUrl?: string | { uri: string };
+     img?: React.ReactNode;
+     title?: React.ReactNode;
+     message?: React.ReactNode;
+     buttonText?: string;
+     buttonType?: 'primary' | 'ghost';
+-    onButtonClick?: () => void;
++    onButtonClick?: (e) => void;
+ }
++
