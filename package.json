@@ -36,7 +36,7 @@
     "mobx": "4.2.1",
     "mobx-react": "5.1.2",
     "mobx-state-tree": "2.0.5",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "node-libs-browser": "^2.1.0",
     "process": "^0.11.10",
     "ramda": "0.25.0",
